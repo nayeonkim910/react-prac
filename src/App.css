@@ -1,0 +1,108 @@
+html{
+  display: flex;
+  background-color: rgb(224, 193, 193);
+  width: 100%;
+  height: 100vh;  
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+/* app> container */
+.container{
+  position: relative;  
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  background-color: #cfcfcf;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+
+}
+/* container > Nav */
+.nav{ 
+  display: flex;
+  background-color: rgb(101, 101, 96);
+  height: 12%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+  cursor: default;
+}
+
+/* container > listBox */
+/* .listBox{
+  background-color: rgb(220, 204, 204);
+  height: 80%;
+   position: relative;
+} */
+.listWrapper{
+  background-color: rgb(222, 218, 218);
+  height: 76%;
+  width: 100%;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* align-items: center; */
+}
+
+.listWrapper li{
+  background-color: tan;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+/* container > inputBox */
+
+.inputBox{
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;  
+}
+.input{
+  width: 70%;
+}
+.addToItemBtn{
+  width: 20%;
+}
+
+
+.btnDarkMode{
+}
+
+
+.navItem{
+  color: orange;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+
+}
+.navItem li:hover {
+  color: rgb(230, 218, 218);
+}
+
+.border-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.border-bottom {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
